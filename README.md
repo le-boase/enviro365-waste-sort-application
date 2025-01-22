@@ -33,10 +33,16 @@ The Enviro Assessment application is designed to manage waste categories, dispos
     cd enviro-assessment
     ```
 
-2. **Run the application**:
+2. **Build the application**:
     ```sh
-    Run the Application file 
+    mvn clean install
     ```
+
+3. **Run the application**:
+    ```sh
+    cd /home/lesegoboase/enviro-assessment/enviro-assessment/src/main/java/com/enviro/assessment/grad001/LesegoBoase/Application.java
+    ```
+    - run the application
 
 4. **Access the API**:
     - The application will be running at `http://localhost:8080`.
